@@ -27,12 +27,20 @@
             
         }
         h1 {
-            font-size: 80px;
+            font-size: 120px;
+            margin: 0;
             font-family: 'Sentient', serif;
+            text-shadow: 9px 9px 0px #26547c;
+        }
+        h2 {
+            display: inline-block;
+            font-size: 40px;
+            border-bottom: 4px solid #e06d6b;
+            border-radius: 5px;
         }
         p {
-            margin-bottom: 25px;
-            font-size: 17.6px;
+            margin-bottom: 10px;
+            font-size: 18px;
             font-weight: 550;
         }
         a {
@@ -70,10 +78,16 @@
         html {
             cursor: url('photos/cursors/cursor_2.png'), auto;
         }
+        @keyframes hcFlagSwing {
+            0% {transform: rotate(0deg);}
+            50% {transform: rotate(6deg);}
+            100% {transform: rotate(0deg);}
+        }
+
     </style>
     <div class="image">
     </div>
-    <a href="https://hackclub.com/"><img style="position: absolute; top: 25px; left: 55px; border: 0; width: 190px; z-index: 999;" src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club"/></a>
+    <a href="https://hackclub.com/" id="hcFlag"><img style="position: absolute; top: 25px; left: 55px; border: 0; width: 190px; z-index: 999; " src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club" /></a>
     <header>
             <h1><span>Skybase ✨</span></h1>
             <!--<h3>Ship projects, get prizes, repeat!</h3>-->
