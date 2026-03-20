@@ -85,7 +85,7 @@ html {
     border-radius: 2px;
     box-shadow: 6px 6px 0px #26547c;
     transition: box-shadow 0.2s ease-in-out;
-    margin-top: 75px;
+    margin-top: 78px;
 }
 .rsvp-button:hover {
     box-shadow: 9px 9px 0px #26547c;
@@ -109,7 +109,7 @@ button:active, a:active {
     border-radius: 2px;
     box-shadow: 6px 6px 0px #26547c;
     transition: box-shadow 0.2s ease-in-out;
-    margin-top: 75px;
+    margin-top: 78px;
     margin-left: 15px;
 }
 .channel-btn:hover {
