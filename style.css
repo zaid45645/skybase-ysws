@@ -85,8 +85,54 @@ html {
     border-radius: 2px;
     box-shadow: 6px 6px 0px #26547c;
     transition: box-shadow 0.2s ease-in-out;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 .rsvp-button:hover {
     box-shadow: 9px 9px 0px #26547c;
+}
+button, a {
+    cursor: url(photos/cursors/cursor_2.png), auto;
+    
+}
+button:active, a:active {
+    cursor: url(photos/cursors/cursor_2.png), auto;
+}
+.channel-btn {
+    width: 250px;
+    height: 50px;
+    background-color: #f12c5a;
+    border: none;
+    color: #ffd166;
+    font-family: 'Sentient', serif;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 2px;
+    box-shadow: 6px 6px 0px #26547c;
+    transition: box-shadow 0.2s ease-in-out;
+    margin-top: 75px;
+    margin-left: 15px;
+}
+.channel-btn:hover {
+    box-shadow: 9px 9px 0px #26547c;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.footer-h2 {
+    border: none;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#special-a {
+    color: #e06d6b;
+}
+#special-a:hover {
+    color: #f12c5a;
 }
