@@ -74,3 +74,27 @@ html {
     50% {transform: rotate(6deg);}
     100% {transform: rotate(0deg);}
 }
+.rsvp-button {
+    width: 130px;
+    height: 50px;
+    background-color: #f12c5a;
+    border: none;
+    color: #ffd166;
+    font-family: 'Sentient', serif;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 2px;
+    box-shadow: 6px 6px 0px #26547c;
+    transition: box-shadow 0.2s ease-in-out;
+    margin-top: 50px;
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rsvp-button:hover {
+    box-shadow: 9px 9px 0px #26547c;
+}
