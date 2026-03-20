@@ -2,71 +2,6 @@
     font-family: 'Sentient';
     src: url(fonts/Sentient-Regular.otf);
 }
-body {
-    background-color: #ffd166;
-    color: #26547c;
-    font-family: 'Sentient', serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    
-}
-.main-div {
-    max-width: 800px;
-    margin: 60px auto;
-    overflow-wrap: break-word;
-    
-}
-h1 {
-    font-size: 120px;
-    margin: 0;
-    font-family: 'Sentient', serif;
-    text-shadow: 9px 9px 0px #26547c;
-}
-h2 {
-    display: inline-block;
-    font-size: 40px;
-    border-bottom: 4px solid #e06d6b;
-    border-radius: 5px;
-}
-p {
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: 550;
-}
-li {
-    font-size: 17.6px;
-}
-ul {
-    transform: translateY(-5px);
-}
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('https://user-cdn.hackclub-assets.com/019d065e-2d5c-7a64-9861-925d4faafa61/hack_club_assemble_ltnj_00613.jpg');
-    margin-bottom: 400px;
-    background-size: cover;
-    min-height: 92vh;
-    margin: 0;
-    padding: 0;
-    border-radius: 50px;
-    border: 5px #26547c solid;
-    opacity: 0.8;
-    user-select: none;  
-}
-span {
-    color: #ffd166;
-}
-html {
-    cursor: url('photos/cursors/cursor_2.png'), auto;
-}
-@keyframes hcFlagSwing {
-    0% {transform: rotate(0deg);}
-    50% {transform: rotate(6deg);}
-    100% {transform: rotate(0deg);}
-}
 .button-div {
     display: flex;
     justify-content: center;
@@ -135,4 +70,69 @@ footer {
 }
 #special-a:hover {
     color: #f12c5a;
+}
+body {
+    background-color: #ffd166;
+    color: #26547c;
+    font-family: 'Sentient', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    
+}
+.main-div {
+    max-width: 800px;
+    margin: 60px auto;
+    overflow-wrap: break-word;
+    
+}
+h1 {
+    font-size: 120px;
+    margin: 0;
+    font-family: 'Sentient', serif;
+    text-shadow: 9px 9px 0px #26547c;
+}
+h2 {
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 4px solid #e06d6b;
+    border-radius: 5px;
+}
+p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 550;
+}
+li {
+    font-size: 17.6px;
+}
+ul {
+    transform: translateY(-5px);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://user-cdn.hackclub-assets.com/019d065e-2d5c-7a64-9861-925d4faafa61/hack_club_assemble_ltnj_00613.jpg');
+    margin-bottom: 400px;
+    background-size: cover;
+    min-height: 92vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    border: 5px #26547c solid;
+    opacity: 0.8;
+    user-select: none;  
+}
+span {
+    color: #ffd166;
+}
+html {
+    cursor: url('photos/cursors/cursor_2.png'), auto;
+}
+@keyframes hcFlagSwing {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(6deg);}
+    100% {transform: rotate(0deg);}
 }
