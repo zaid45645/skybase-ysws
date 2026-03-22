@@ -74,8 +74,8 @@ html {
     
 }   
 .rsvp-button {
-    width: 130px;
-    height: 50px;
+    width: 140px;
+    height: 60px;
     background-color: #f12c5a;
     border: none;
     color: #ffd166;
@@ -83,12 +83,13 @@ html {
     font-weight: 900;
     font-size: 18px;
     border-radius: 2px;
-    box-shadow: 6px 6px 0px #26547c;
+    box-shadow: 8px 8px 0px #26547c;
     transition: box-shadow 0.2s ease-in-out;
-    margin-top: 78px;
+    margin-top: 10px;
+    margin-bottom: 65px;
 }
 .rsvp-button:hover {
-    box-shadow: 9px 9px 0px #26547c;
+    box-shadow: 10px 10px 0px #26547c;
 }
 button, a {
     cursor: url(photos/cursors/cursor_2.png), auto;
@@ -98,8 +99,8 @@ button:active, a:active {
     cursor: url(photos/cursors/cursor_2.png), auto;
 }
 .channel-btn {
-    width: 250px;
-    height: 50px;
+    width: 260px;
+    height: 60px;
     background-color: #f12c5a;
     border: none;
     color: #ffd166;
@@ -107,20 +108,21 @@ button:active, a:active {
     font-weight: 900;
     font-size: 18px;
     border-radius: 2px;
-    box-shadow: 6px 6px 0px #26547c;
+    box-shadow: 8px 8px 0px #26547c;
     transition: box-shadow 0.2s ease-in-out;
-    margin-top: 78px;
+    margin-top: 10px;
     margin-left: 15px;
+    margin-bottom: 65px;
 }
 .channel-btn:hover {
-    box-shadow: 9px 9px 0px #26547c;
+    box-shadow: 10px 10px 0px #26547c;
 }
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 75px;
+    margin-top: 120px;
     
 }
 
@@ -136,3 +138,4 @@ footer {
 #special-a:hover {
     color: #f12c5a;
 }
+
